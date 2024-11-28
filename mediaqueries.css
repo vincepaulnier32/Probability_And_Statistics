@@ -1,0 +1,228 @@
+@media screen and (max-width: 1200px){
+    #desktop-nav{
+        display: none;
+    }
+
+    #hamburger_nav{
+        display: flex;
+    }
+}
+@media screen and (max-width: 600px) {
+    /* Navigation */
+    nav {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    /* Hamburger menu */
+    #hamburger_nav {
+        display: block;
+    }
+
+    .menu-links {
+        width: 100%;
+        text-align: center;
+    }
+
+    /* Hero section */
+    .hero {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .hero-text h4 {
+        font-size: 24px;
+    }
+
+    .hero-text h1 {
+        font-size: 36px;
+    }
+
+    .hero-img img {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    /* Sections and typography */
+    section {
+        padding: 0 5%;
+    }
+
+    .section-title {
+        font-size: 30px;
+    }
+
+    .math-example {
+        padding: 10px 20px;
+    }
+
+    /* Containers */
+    .photo-container {
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+
+    .video-container {
+        flex-direction: column;
+    }
+
+    .calculator {
+        max-width: 500px;
+        padding: 15px;
+    }
+
+    .answer-options {
+        grid-template-columns: 1fr;
+    }
+
+    /* Footer */
+    footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .social-icons {
+        margin-top: 10px;
+    }
+}
+
+/* Medium devices (tablets) */
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+    section {
+        padding: 0 5%;
+    }
+
+    .hero {
+        gap: 10rem;
+    }
+
+    .hero-text h1 {
+        font-size: 50px;
+    }
+
+    .photo-container {
+        flex-basis: 45%;
+    }
+
+    .math-example {
+        padding: 10px 100px;
+    }
+
+    .calculator {
+        max-width: 60%;
+    }
+}
+
+/* Large devices (desktops) */
+@media screen and (min-width: 1025px) {
+    /* No major changes, but can fine-tune if needed */
+    .photo-container {
+        flex-basis: 300px;
+    }
+}
+
+/* Shared styles for all .pic classes */
+.pic, .pic2, .pic3, .pic4 {
+    text-align: center;
+    padding: 10px; /* Add some space around elements for better mobile appearance */
+}
+
+/* Image styling */
+.pic img, .pic2 img, .pic3 img, .pic4 img {
+    border-radius: 15px;
+    max-width: 100%; /* Images fit within the container width */
+    height: auto;    /* Maintains the aspect ratio of images */
+    display: inline-block; /* Centers the image properly */
+}
+
+/* General container styling for small devices */
+@media (max-width: 768px) { 
+    /* Adjustments for tablets and smaller screens */
+    .pic img, .pic2 img, .pic3 img, .pic4 img {
+        border-radius: 10px; /* Slightly smaller rounding on smaller screens */
+    }
+
+    .pic, .pic2, .pic3, .pic4 {
+        padding: 5px; /* Slightly reduce padding */
+    }
+}
+
+@media (max-width: 480px) {
+    /* Specific adjustments for smaller devices like cellphones */
+    .pic img, .pic2 img, .pic3 img, .pic4 img {
+        border-radius: 8px;
+    }
+
+    .pic, .pic2, .pic3, .pic4 {
+        padding: 3px;
+    }
+}
+.pic, .pic2, .pic3, .pic4 {
+    text-align: center;
+    padding: 10px; /* Add some space around elements for better mobile appearance */
+}
+
+/* Image styling */
+.pic img, .pic2 img, .pic3 img, .pic4 img {
+    border-radius: 15px;
+    max-width: 100%; /* Images fit within the container width */
+    height: auto;    /* Maintains the aspect ratio of images */
+    display: inline-block; /* Centers the image properly */
+}
+
+/* General container styling for small devices */
+@media (max-width: 768px) { 
+    /* Adjustments for tablets and smaller screens */
+    .pic img, .pic2 img, .pic3 img, .pic4 img {
+        border-radius: 10px; /* Slightly smaller rounding on smaller screens */
+    }
+
+    .pic, .pic2, .pic3, .pic4 {
+        padding: 5px; /* Slightly reduce padding */
+    }
+}
+
+@media (max-width: 480px) {
+    /* Specific adjustments for smaller devices like cellphones */
+    .pic img, .pic2 img, .pic3 img, .pic4 img {
+        border-radius: 8px;
+    }
+
+    .pic, .pic2, .pic3, .pic4 {
+        padding: 3px;
+    }
+}
+/* Reduce spacing between sections */
+/* section {
+    padding: 30px 15px;
+} */
+
+/* Adjust hero section layout */
+/* .hero {
+    padding: 50px 15px;
+} */
+
+/* Increase calculator size */
+.calculator {
+    max-width: 60%;
+    padding: 15px;
+    
+}
+
+/* Increase quiz box size */
+.quiz-container {
+    max-width: 80%;
+    padding: 30px 20px; 
+    min-height: 300px; 
+}

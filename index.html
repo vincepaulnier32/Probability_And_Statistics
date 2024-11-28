@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Probability and Statistics</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Unna:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+
+
+    </head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">MMT GROUP</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#home" >Home</a></li>
+                <li><a href="#measures-and-principles" > Measures & Principles</a></li>
+                <li><a href="#permutations" >Permutations & Combinations</a></li>
+                <li><a href="#probability" >Probability</a></li>
+                <li><a href="#calculator" >Calculator</a></li>
+                <li><a href="#About us" >About Us</a></li>
+            </ul>
+        </div>  
+    </nav>
+    <nav id="hamburger_nav">
+        <div class="logo">MMT GROUP</div>
+         <div class="hamburger-menu">
+            <div class=" hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#home" onclick="toggleMenu()">Home</a></li>
+                <li><a href="#measures-and-principles" onclick="toggleMenu()">Measures & Principles</a></li>
+                <li><a href="#permutations" onclick="toggleMenu()">Permutations & Combinations</a></li>
+                <li><a href="#probability" onclick="toggleMenu()">Probability</a></li>
+                <li><a href="#calculator" onclick="toggleMenu()">Calculator</a></li>
+                <li><a href="#About us" onclick="toggleMenu()">About Us</a></li>
+            </div>
+         </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-text">
+            <h4>Welcome to </h4>
+            <h1>Probability and Statistics</h1>
+            <p>Explore the fascinating world of probability and statistics through interactive learning! Our platform helps you understand complex concepts through clear explanations, practical examples, and hands-on calculations.</p>    
+            <button class="hero-btn" onclick="location.href='#measures-and-principles'">EXPLORE</button>
+        </div>
+        <div class="hero-img">
+            <img src="Pics/HAHA.png" >
+        </div>
+        
+    </section>
+
+    <section id="measures-and-principles" class="content-section">
+        <h1 class="section-title">Measures of Central Tendency & Fundamental Counting Principles</h1>
+        <div class="math-example">
+            <h2>Measures of Central Tendency</h2>
+            <h4>Measures of central tendency are statistical measures that represent the center or typical value of a dataset. The three main measures are Mean, Median, and Mode.</h4>
+
+            <div class="formula-box">
+                <h3>Formula:</h3>
+                <div class="pic">
+                    <img src="Pics/111.png" ><p><br></p>
+                </div>
+                
+                <p>1. Mean (Average): Sum of all values ÷ Number of values</p>
+                <p>2. Median: Middle value when data is ordered</p>
+                <p>3. Mode: Most frequently occurring value</p>
+            </div>
+
+            <div class="example-box">
+                <h3>Example 1: Mean Calculation</h3>
+                <p>Calculate the mean of test scores: 85, 92, 78, 90, 95</p>
+                <p>Solution:</p>
+                <p>Sum of scores: 85 + 92 + 78 + 90 + 95 = 440</p>
+                <p>Number of scores: 5</p>
+                <p>Mean = 440 ÷ 5 = 88</p>
+            </div>
+
+            <div class="example-box">
+                <h3>Example 2: Median and Mode</h3>
+                <p>Find the median and mode of: 3, 7, 5, 5, 8, 7, 3</p>
+                <p>Solution:</p>
+                <p>Ordered data: 3, 3, 5, 5, 7, 7, 8</p>
+                <p>Median: Middle value = 5</p>
+                <p>Mode: Most frequent values = 3 and 5 (bimodal)</p>
+            </div>
+            
+            <div class="youtube-link-section" style="text-align: center; margin-top: 20px;">
+                <a href="https://www.youtube.com/watch?v=PApJlOrPDFg" class="youtube-link" target="_blank" style="color: red; font-size: 1.2em; text-decoration: none; display: inline-block;">
+                    <span style="vertical-align: middle;">Measures of Central Tendency Tutorial:</span>  
+                    <i class="fab fa-youtube" style="font-size: 2em; vertical-align: middle;"></i>
+                </a>
+                <p><br></p><p><br></p><p><br></p>
+            </div>
+
+            
+
+            <h2>Fundamental Counting Principles</h2>
+            <h4>The Fundamental Counting Principle helps determine the total number of possible outcomes when multiple independent events occur.</h4>
+
+            <div class="formula-box">
+                <h3>Formula:</h3>
+                    <div class="pic2">
+                        <img src="Pics/2.png" ><p><br></p>
+                    </div>
+                <p>Total Outcomes = (Number of ways first event can occur) × (Number of ways second event can occur) × ...</p>
+            </div>
+
+            <div class="example-box">
+                <h3>Example 1: Clothing Combinations</h3>
+                <p>You have 3 shirts, 2 pants, and 4 shoes. How many different outfits can you make?</p>
+                <p>Solution:</p>
+                <p>Shirts: 3 options</p>
+                <p>Pants: 2 options</p>
+                <p>Shoes: 4 options</p>
+                <p>Total combinations: 3 × 2 × 4 = 24 different outfits</p>
+            </div>
+
+            <div class="example-box">
+                <h3>Example 2: Car Customization</h3>
+                <p>A car model offers 5 color choices, 3 interior options, and 2 wheel designs. How many unique car configurations are possible?</p>
+                <p>Solution:</p>
+                <p>Color choices: 5 options</p>
+                <p>Interior options: 3 options</p>
+                <p>Wheel designs: 2 options</p>
+                <p>Total configurations: 5 × 3 × 2 = 30 unique car designs</p>
+            </div>
+
+            <div class="youtube-link-section" style="text-align: center; margin-top: 20px;">
+                <a href="https://www.youtube.com/watch?v=3lmEqp8VhAU" class="youtube-link" target="_blank" style="color: red; font-size: 1.2em; text-decoration: none; display: inline-block;">
+                    <span style="vertical-align: middle;">Fundamental Counting Principle Tutorial:</span>  
+                    <i class="fab fa-youtube" style="font-size: 2em; vertical-align: middle;"></i>
+                </a>
+                
+            </div>
+            
+        </div>
+    </section>
+
+    <section id="permutations" class="content-section">
+        <h1 class="section-title">Permutations and Combinations</h1>
+        <div class="math-example">
+            <h2>Understanding Permutations</h2>
+            <h4>A permutation is an arrangement of objects where order matters. It represents the number of ways to arrange a set of items when the sequence is important. Permutations are used in scheduling, password generation, and event organization.</h4>
+            
+            <div class="formula-box">
+                <h3>Permutation Formula:</h3>
+                <div class="pic2">
+                    <img src="Pics/33.jpg" ><p><br></p>
+                </div>
+                <p>P(n,r) = n! / (n-r)!</p>
+                <p>where n is the total number of items and r is the number of items being arranged</p>
+            </div>
+
+            <div class="example-box">
+                <h3>Example 1: Arranging Books</h3>
+                <p>If you have 5 different books and want to arrange 3 of them on a shelf, how many different arrangements are possible?</p>
+                <p>Solution:</p>
+                <p>n = 5 (total books)</p>
+                <p>r = 3 (books to arrange)</p>
+                <p>P(5,3) = 5! / (5-3)!</p>
+                <p>P(5,3) = 5! / 2! = (5 × 4 × 3) = 60 different arrangements</p>
+            </div>
+
+            <div class="example-box">
+                <h3>Example 2: PIN Numbers</h3>
+                <p>How many different 3-digit PIN numbers can be created using the digits 1, 2, 3, 4, 5 without repeating any digit?</p>
+                <p>Solution:</p>
+                <p>n = 5 (available digits)</p>
+                <p>r = 3 (PIN length)</p>
+                <p>P(5,3) = 5! / (5-3)! = 60 different PIN numbers</p>
+            </div>
+ 
+            <div class="youtube-link-section" style="text-align: center; margin-top: 20px;">
+                <a href="https://youtu.be/0NAASclUm4k?si=X8sVMULwozI_jfA6" class="youtube-link" target="_blank" style="color: red; font-size: 1.2em; text-decoration: none; display: inline-block;">
+                    <span style="vertical-align: middle;">Permutations Tutorial:</span>  
+                    <i class="fab fa-youtube" style="font-size: 2em; vertical-align: middle;"></i>
+                </a><p><br></p><p><br></p><p><br></p>
+            </div>
+            
+
+            <h2>Understanding Combinations</h2>
+            <h4>A combination is a selection of items where the order does not matter. It represents the number of ways to choose elements from a larger group without considering the sequence. Combinations are often used in statistics, lottery draws, and team formations.</h4>
+
+            <div class="formula-box">
+                <h3>Combination Formula:</h3>
+                <div class="pic3">
+                    <img src="Pics/44.png" ><p><br></p>
+                </div>
+                <p>C(n,r) = n! / (r! × (n-r)!)</p>
+                <p>where n is the total number of items and r is the number of items being selected</p>
+            </div>
+
+            <div class="example-box">
+                <h3>Example 1: Team Selection</h3>
+                <p>From a group of 10 students, how many different ways can you select 3 students for a project team?</p>
+                <p>Solution:</p>
+                <p>n = 10 (total students)</p>
+                <p>r = 3 (team size)</p>
+                <p>C(10,3) = 10! / (3! × (10-3)!)</p>
+                <p>C(10,3) = 10! / (3! × 7!) = 120 different possible teams</p>
+            </div>
+
+            <div class="example-box">
+                <h3>Example 2: Card Game</h3>
+                <p>In a standard deck of 52 cards, how many different 5-card hands are possible?</p>
+                <p>Solution:</p>
+                <p>n = 52 (total cards)</p>
+                <p>r = 5 (cards in hand)</p>
+                <p>C(52,5) = 52! / (5! × 47!) = 2,598,960 possible hands</p>
+            </div>
+            <div class="youtube-link-section" style="text-align: center; margin-top: 20px;">
+                <a href="https://youtu.be/iKy-d5_erhI?si=kgUk_YXiN1SXZSLu" class="youtube-link" target="_blank" style="color: red; font-size: 1.2em; text-decoration: none; display: inline-block;">
+                    <span style="vertical-align: middle;">Combinations Tutorial:</span>  
+                    <i class="fab fa-youtube" style="font-size: 2em; vertical-align: middle;"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="probability" class="content-section">
+        <h1 class="section-title">Probability</h1>
+        <div class="math-example">
+            <h2>What is Probability?</h2>
+            <h4>Probability is a way of quantifying the likelihood of an event happening. It ranges from 0 (impossible) to 1 (certain) and indicates how likely an outcome is. Probability theory plays a key role in fields like statistics, weather prediction, gambling, and risk analysis.</h4>
+
+            <div class="formula-box">
+                <h3>Formula:</h3>
+                <div class="pic4">
+                    <img src="Pics/55.jpg" ><p><br></p>
+                </div>
+                <p>P(event) = Number of Favorable Outcomes / Total Number of Possible Outcomes</p>
+            </div>
+
+            <div class="example-box">
+                <h3>Example 1: Rolling a Die</h3>
+                <p>What is the probability of rolling an even number on a standard six-sided die?</p>
+                <p>Solution:</p>
+                <p>Favorable outcomes: 2, 4, 6 (three even numbers)</p>
+                <p>Total possible outcomes: 1, 2, 3, 4, 5, 6 (six numbers)</p>
+                <p>P(even) = 3/6 = 1/2 = 0.5 or 50%</p>
+            </div>
+
+            <div class="example-box">
+                <h3>Example 2: Drawing Cards</h3>
+                <p>What is the probability of drawing a heart from a standard deck of 52 cards?</p>
+                <p>Solution:</p>
+                <p>Favorable outcomes: 13 hearts</p>
+                <p>Total possible outcomes: 52 cards</p>
+                <p>P(heart) = 13/52 = 1/4 = 0.25 or 25%</p>
+            </div>
+            <div class="youtube-link-section" style="text-align: center; margin-top: 20px;">
+                <a href="https://youtu.be/KzfWUEJjG18?feature=shared" class="youtube-link" target="_blank" style="color: red; font-size: 1.2em; text-decoration: none; display: inline-block;">
+                    <span style="vertical-align: middle;">Probability Tutorial:</span>  
+                    <i class="fab fa-youtube" style="font-size: 2em; vertical-align: middle;"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+    
+    <section id="calculator" class="content-section">
+        <h1 class="section-title">CALCULATOR</h1>
+        <div class="calculator">
+            <!-- Single text area for input and output -->
+            <textarea class="display" id="display" readonly></textarea>
+            <div class="buttons">
+                <!-- Calculator buttons -->
+                 
+                <button onclick="Calculator.appendToDisplay('7')">7</button>
+                <button onclick="Calculator.appendToDisplay('8')">8</button>
+                <button onclick="Calculator.appendToDisplay('9')">9</button>
+                <button onclick="Calculator.appendToDisplay('+')">+</button>
+                
+                <button onclick="Calculator.appendToDisplay('4')">4</button>
+                <button onclick="Calculator.appendToDisplay('5')">5</button>
+                <button onclick="Calculator.appendToDisplay('6')">6</button>
+                <button onclick="Calculator.appendToDisplay('-')">-</button>
+                
+                <button onclick="Calculator.appendToDisplay('1')">1</button>
+                <button onclick="Calculator.appendToDisplay('2')">2</button>
+                <button onclick="Calculator.appendToDisplay('3')">3</button>
+                <button onclick="Calculator.appendToDisplay('*')">*</button>
+                
+                <button onclick="Calculator.clearDisplay()">AC</button>
+                <button onclick="Calculator.appendToDisplay('0')">0</button>
+                <button onclick="Calculator.appendToDisplay('.')">.</button>
+                <button onclick="Calculator.appendToDisplay('/')">/</button>
+                
+                <button onclick="Calculator.appendToDisplay('nPr')">nPr</button>
+                <button onclick="Calculator.appendToDisplay('nCr')">nCr</button>
+                <button onclick="Calculator.calculate()">=</button>
+                <button onclick="Calculator.toggleSign()">±</button>
+            </div>
+        </div>
+        <div style="text-align: center; color: #036147; font-family: 'Montserrat', serif; font-weight: 600 ; font-size: 20px ;  ">
+            <p> nPr = Permutation </p>
+            <p> nCr = Combination </p>
+        </div>
+    </section>
+
+    <section id="quiz" class="content-section">
+        <h1 class="section-title">Probability Pop Quiz! 🧮🎲</h1>
+        <div class="quiz-container">
+            <div id="quiz-intro" class="quiz-intro">
+                <p>Think you're a probability pro? Test your skills with our interactive quiz! Each correct answer earns you points. Are you ready to become a statistical superstar? 🌟</p>
+                <button onclick="startQuiz()" class="start-quiz-btn">Start Quiz</button>
+            </div>
+
+            <div id="quiz-questions" class="quiz-questions" style="display: none;">
+                <div class="question-box">
+                    <h3 id="current-question">Question goes here</h3>
+                    <div class="answer-options" id="answer-options">
+                        <!-- Options will be dynamically populated -->
+                    </div>
+                    <div class="quiz-feedback" id="quiz-feedback"></div>
+                </div>
+                <div class="quiz-navigation">
+                    <button onclick="skipQuestion()" class="skip-question-btn">Skip Question</button>
+                </div>
+                <div class="quiz-score">
+                    <p>Score: <span id="current-score">0</span>/5</p>
+                </div>
+            </div>
+
+            <div id="quiz-result" style="display: none;">
+                <h2 id="final-score-message">Your final score: 0/5</h2>
+                <div id="result-emoji">Better luck next time! 😞 </div>
+                <button class="restart-btn" onclick="restartQuiz()">Restart Quiz</button>
+            </div>
+    </section>
+
+    <section id="About us" class="content-section">
+        <h2 class="section-title">About Us</h2>
+        <p class="about-us-p">We are a passionate team driven by creativity, pushing boundaries to make the impossible possible.</p>
+    
+        <div class="photo-row">
+            <div class="photo-container">
+                <img src="Pics/bnsf.png" alt="Photo 2">
+                <h4 class="Names">Vince Rein</h4>
+                <p class="photo-caption">"The future is not some place we are going to, but one we are creating."</p>
+                <p class="social-media">
+                    <a href="https://www.facebook.com/vincepaul.Nier" target="_blank">
+                        <i class="fa-brands fa-facebook fa-2xl"></i>
+                    </a>
+                    <a href="https://maps.app.goo.gl/fydm6Y6nXqUV3zii8" target="_blank">
+                        <i class="fa-solid fa-location-dot fa-2xl"></i>
+                    </a>
+                </p>
+            </div>
+
+            <div class="photo-container">
+                <img src="Pics/dans.png" alt="Photo 3">
+                <h4 class="Names">Daniela Cuiman</h4>
+                <p class="photo-caption">"If you want to live a happy life, tie it to a goal, not to people or things."</p>
+                <p class="social-media">
+                    <a href="https://www.facebook.com/Daniella.Cuiman" target="_blank">
+                        <i class="fa-brands fa-facebook fa-2xl"></i>
+                    </a>
+                    <a href="https://maps.app.goo.gl/JhRMczSkGwZzTqcY7" target="_blank">
+                        <i class="fa-solid fa-location-dot fa-2xl"></i>
+                    </a>
+                </p>
+            </div>
+
+            <div class="photo-container">
+                <img src="Pics/jst.png" alt="Photo 3">
+                <h4 class="Names">Justin Martin Guias</h4>
+                <p class="photo-caption">"Why waste your life in sadness, when you can enjoy a life of happiness."</p>
+                <p class="social-media">
+                    <a href="https://www.facebook.com/KlimatisEspatis" target="_blank">
+                        <i class="fa-brands fa-facebook fa-2xl"></i>
+                    </a>
+                    <a href="https://www.mememaker.net/static/images/memes/3254904.jpg" target="_blank">
+                        <i class="fa-solid fa-location-dot fa-2xl"></i>
+                    </a>
+                </p>
+            </div>
+            <div class="photo-container">
+                <img src="Pics/emm.png" alt="Photo 4">
+                <h4 class="Names">Mario Emmanuel Lachica</h4>
+                <p class="photo-caption">"The way I see it, if you want the rainbow, you gotta put up with the rain."</p>
+                <p class="social-media">
+                    <a href="https://www.facebook.com/emman.lachcia" target="_blank">
+                        <i class="fa-brands fa-facebook fa-2xl"></i>
+                    </a>
+                    <a href="https://maps.app.goo.gl/BZe4FysgXRcjhQhR8" target="_blank">
+                        <i class="fa-solid fa-location-dot fa-2xl"></i>
+                    </a>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- JavaScript files -->
+    <script src="calculator.js"></script>
+    <script src="navigation.js"></script>
+    <script src="quiz.js"></script>
+    <script src="scripts.js"></script>
+</body>
+
+<footer>
+    <div class="footer-content">
+        <p>&copy; 2024 MMT Group. All rights reserved.</p>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/dlsjbc.ccs" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://twitter.com/delasallejbc" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://instagram.com/delasallejbc" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+    </div>
+</footer>
+
+<button id="scrollTopBtn" onclick="scrollToTop()">↑</button>
+
+</html>
